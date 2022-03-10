@@ -1,0 +1,1 @@
+select * from cliente where s_nome_cliente like ('b_u%o');

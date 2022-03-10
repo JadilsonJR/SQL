@@ -1,0 +1,19 @@
+/* create table cliente(
+i_cliente_cliente int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+s_nome_cliente varchar(50) NOT NULL,
+s_cpf_cliente varchar(11) NOT NULL,
+d_nasc_cliente datetime  
+);
+alter table cliente add i_tipo_cliente int NOT NULL 
+*/
+/*
+create table tipocliente (
+i_tipocliente_tipocliente INT PRIMARY KEY AUTO_INCREMENT,
+s_dsctipocliente_tipocliente VARCHAR(50) NOT NULL
+);
+*/
+/*
+alter table cliente add constraint fk_tipocliente foreign key (i_tipo_cliente) references tipocliente (i_tipocliente_tipocliente);
+*/
+
+alter table cliente modify column i_idade_cliente tinyINT;

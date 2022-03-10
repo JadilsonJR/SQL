@@ -1,0 +1,1 @@
+select * from cliente where i_tipo_cliente in(2,3) and (month(d_nasc_cliente) >=4 and month(d_nasc_cliente) <= 11);

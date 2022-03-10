@@ -1,0 +1,7 @@
+DELIMITER $$
+CREATE PROCEDURE basico()
+BEGIN 
+
+END $$
+
+DELIMITER ; 
